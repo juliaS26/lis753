@@ -1,0 +1,40 @@
+nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  background-color: lightsalmon;
+  list-style: none;
+  padding: 0;
+  height: 50px;
+
+
+
+}
+
+nav ul li a{
+  color: white;
+  font-family: georgia;
+  font-size: 25px;
+  text-decoration: none;
+
+
+
+}
+h1 {
+  color: lightsalmon;
+  font-family: georgia;
+}
+figcaption {
+
+  width: 200px;
+  background: #ffcccc;
+}
+figure img {
+  margin: 1px;
+  border: 3px solid black;
+  padding: 25px;
+  width: 30%;
+  height: auto;
+  display: in-line block;
+
+}
