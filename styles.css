@@ -1,40 +1,68 @@
 nav ul{
   display: flex;
   justify-content: center;
-  gap: 70px;
+  gap: 60px;
   background-color: #016554;
   list-style: none;
-  padding: 0;
-  height: 50px;
-
-
+  padding-top: 10px;
+  height: 30px;
 
 }
 
 nav ul li a{
+
   color: #FFCDBD;
   font-family: georgia;
-  font-size: 25px;
+  font-size: 15px;
   text-decoration: none;
-
-
+  margin-top: 10px;
 
 }
-h1 {
+
+h1#site-title {
   color: #9E001D;
   font-family: georgia;
+  text-align: center;
 }
+
+  p{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+  }
+
 figcaption {
 
   width: 200px;
   background: #ffcccc;
 }
-figure img {
-  margin: 1px;
+
+figure.pasta-picture {
+
+  margin-left: 300px;
+  margin-right: 300px;
   border: 3px solid black;
-  padding: 25px;
-  width: 30%;
+  max-width: 100%;
   height: auto;
-  display: in-line block;
+  float:right;
+}
+
+p1{
+  margin-left: 300px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+img#cat {
+  max-width: 30%;
+  max-height: auto;
+  margin-left: 500px;
+  margin-right: 400px;
+}
+
+figcaption1{
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 400px;
 
 }
