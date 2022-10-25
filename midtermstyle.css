@@ -5,10 +5,31 @@ body{
 h1#site-title{
   border-style: double;
   border-width: thick;
+  border-color: black;
   font-size: 60px;
   font-family: sans-serif;
   text-align: center;
   color: #FF6633;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 60px;
+  background-color: #FF6633;
+  list-style: none;
+  padding-top: 10px;
+  height: 30px;
+
+}
+
+nav ul li a{
+  font-size: 18px;
+  list-style: none;
+  color: black;
+  text-decoration: none;
+
 }
 
 article1{
