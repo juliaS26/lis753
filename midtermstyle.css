@@ -43,8 +43,8 @@ article1 ul{
 }
 
 img{
-  width: 850px;
-  height:545px;
+  width:840px;
+  height:100%;
   float: left;
   margin-left: auto;
   display: flow-root;
@@ -70,7 +70,7 @@ article3{
   border-style: double;
   border-color: #FF6633;
   border-width: thick;
-  display:inline-inline-table;
+  display:inline-grid;
   float: right;
   text-align: center;
   margin-top: 20px;
