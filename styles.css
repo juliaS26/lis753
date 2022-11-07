@@ -1,13 +1,13 @@
-nav ul{
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  background-color: #016554;
-  list-style: none;
-  padding-top: 10px;
-  height: 30px;
-
-
+@media all and(min-width: 376px){
+  nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: #016554;
+    list-style: none;
+    padding-top: 10px;
+    height: 30px;
+  }
 }
 
 nav ul li a{
@@ -17,7 +17,8 @@ nav ul li a{
   font-size: 17px;
   text-decoration: none;
   margin-top: 10px;
-  
+  list-style:none;
+
 
 }
 
@@ -27,11 +28,15 @@ h1#site-title {
   text-align: center;
 }
 
+@ media all and(min-width:800px){
+
   p{
-    margin-left: 300px;
-    margin-right: 300px;
+
     text-align: center;
   }
+
+}
+
 
 figcaption {
 
@@ -42,35 +47,34 @@ figcaption {
 
 }
 
-figure.pasta-picture {
+figure pasta-picture {
 
   margin-left: 300px;
   margin-right: 300px;
   border: 3px solid black;
   max-width: 100%;
   height: auto;
-  float:right;
+
 }
 
 p1{
-  margin-left: 300px;
-  margin-right: 200px;
+
   text-align: center;
 }
 
 img#cat {
-  max-width: 50%;
+  max-width: 100%;
   max-height: auto;
-  margin-left: 200px;
-  margin-right: 400px;
   justify-content: center;
 }
 
-figure.my-cat{
+figure my-cat{
   border: 3px solid black;
   margin-left: 300px;
   margin-right: 300px;
   align-content: center;
+  max-width: 100%;
+  max-height: auto;
 
 
 }
