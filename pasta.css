@@ -1,0 +1,55 @@
+body{
+  background-color:#92a8d1;
+}
+
+  h1 {
+    font-family:'Brush Script MT',cursive;
+    color:#f7cac9;
+    font-size: 50px;
+  }
+
+  img#pasta{
+    width:600px;
+    height:100%;
+    float: left;
+    display:inline-table;
+    margin-left: 110px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    position: relative; bottom: -100px;
+  }
+
+  h2{
+    font-size: 20px;
+    font-family: georgia;
+  }
+
+  ul{
+    font-size: 20px;
+    font-family: georgia;
+  }
+
+  h3{
+    font-size: 20px;
+    font-family: georgia;
+  }
+
+  ol{
+    font-size: 20px;
+    font-family: georgia;
+  }
+
+  article1{
+    display: inline-block;
+    border-style: dashed;
+    position:relative; bottom: -20px;
+  }
+
+  article2{
+
+    display: inline-block;
+    border-style: dashed;
+    align-content: center;
+    position:relative; bottom: -100px;
+
+  }

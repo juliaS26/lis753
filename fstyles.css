@@ -1,0 +1,79 @@
+body{
+  background-color:#92a8d1;
+}
+
+h1{
+  color: #fefbd8;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 60px;
+  position: relative;bottom: -25px;
+}
+
+p#description{
+  color: #fefbd8;
+  text-align: center;
+  font-size: 20px;
+  font-family: georgia;
+  border-style:dashed;
+  border-width: thick;
+  position: relative; bottom:-10px;
+  padding: 10px;
+  align-content: center;
+
+
+
+}
+
+img#logo{
+  width:70px;
+  height:100%;
+  float: left;
+  position:relative;top: -135px; right: -190px;
+}
+
+img#logo2{
+  width:70px;
+  height:100%;
+  float: right;
+  position:relative;top: -135px; left: -190px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  background-color: #f7786b;
+  list-style: none;
+  padding-top: 10px;
+  height: 30px;
+}
+
+nav ul li a{
+
+  color: #FFCDBD;
+  font-family: georgia;
+  font-size: 17px;
+  text-decoration: none;
+  margin-top: 10px;
+  list-style:none;
+}
+
+img#pasta{
+  width:600px;
+  height:100%;
+  float: left;
+  display:inline-table;
+  margin-left: 110px;
+  margin-right: 0px;
+
+}
+img#garlic{
+  width:600px;
+  height:100%;
+  float: right;
+  display: inline-table;
+  margin-right: 35px;
+  position: relative; right:80px;
+
+}
