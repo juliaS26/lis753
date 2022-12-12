@@ -1,0 +1,23 @@
+body{
+  background-color:#92a8d1;
+}
+
+  h1{
+    color: #FFCDBD;
+    text-align: center;
+    font-family:'Brush Script MT', cursive;
+    font-size: 60px;
+  }
+
+  ul li a{
+    font-family: georgia;
+    font-size: 20px;
+    color:#fefbd8;
+    align-content: center;
+  }
+
+  ul{
+    align-content: center;
+    list-style: none;
+    align-content: center;
+  }

@@ -1,0 +1,26 @@
+body{
+  background-color:#92a8d1;
+}
+
+h1{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 45px;
+  color: #FFCDBD;
+  align-content: center;
+  margin-left: 650px;
+
+}
+
+p{
+  font-size: 16px;
+  font-family: georgia;
+  border-style: dotted;
+  border-color: #FFCDBD;
+  border-radius: 12px;
+  border-width: thick;
+  border-spacing: 20px;
+  align-content: center;
+  display: inline-flex;
+  margin-left: 450px;
+  text-align: center;
+}
