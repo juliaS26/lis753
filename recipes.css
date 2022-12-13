@@ -21,3 +21,26 @@ body{
     list-style: none;
     align-content: center;
   }
+
+  article1{
+    float: left;
+    margin-left: 300px;
+  }
+
+  article2{
+    float: right;
+    margin-right: 300px;
+  }
+
+  h{
+    font-family:'Brush Script MT', cursive;
+    font-size: 30px;
+
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 300px;
+    object-fit: fill;
+  }
