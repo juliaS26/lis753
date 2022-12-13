@@ -42,7 +42,7 @@ body{
   article1{
     display: inline-block;
     border-style: dashed;
-    position:relative; bottom: -20px;
+    position:relative; bottom: -50px;
   }
 
   article2{
@@ -51,5 +51,7 @@ body{
     border-style: dashed;
     align-content: center;
     position:relative; bottom: -100px;
+    margin-bottom: 200px;
+    margin-left: 110px;
 
   }
